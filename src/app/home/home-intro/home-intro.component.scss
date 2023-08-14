@@ -1,0 +1,46 @@
+.container-home{
+    background-color: var(--color-2);
+}
+.container-home .home{
+    background-color: var(--color-1); 
+    border-radius: 0 0 128px 128px ;
+    padding: 20px 108px 40px 108px;
+  
+}
+.container-home .home .title{
+    font-size: 64px;
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.container-home .home .body-intro{
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
+.container-home .home .body-intro .left-intro .img-intro{
+    width: 496px;
+    height: 496px;
+}
+
+.container-home .home .body-intro .right-intro .text-intro{
+    font-size: 48px;
+    padding-bottom: 23px;
+}
+.container-home .home .body-intro .right-intro .button-intro{
+    display: flex;
+    justify-content: center;
+}
+.container-home .home .body-intro .right-intro .button{
+    width: 392px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 64px;
+    background: var(--color-2);
+    color: var(--color-4);
+    border: none;
+    font-size: 48px;
+}
+.container-home .home .body-intro .right-intro .button:hover{
+    cursor: pointer;
+}
