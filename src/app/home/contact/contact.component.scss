@@ -1,0 +1,39 @@
+.contact{
+    background-color: var(--color-2);
+    color: var(--color-4);
+    padding: 40px 108px 72px 108px;
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.contact-title h1{
+    font-size: 64px;
+}
+
+.contact-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-left h2{
+    font-size: 32px;
+}
+.contact-left p{
+    font-size: 24px;
+}
+
+.contact-right{
+    width: 600px;
+    height: 410px;
+}
