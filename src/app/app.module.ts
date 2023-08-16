@@ -9,6 +9,7 @@ import { HomeIntroComponent } from './home/home-intro/home-intro.component';
 import { AboutComponent } from './home/about/about.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { PassComponent } from './pages/pass/pass.component';
+import { BodyPassComponent } from './pass/body-pass/body-pass.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { PassComponent } from './pages/pass/pass.component';
     HomeIntroComponent,
     AboutComponent,
     ContactComponent,
-    PassComponent
+    PassComponent,
+    BodyPassComponent
   ],
   imports: [
     BrowserModule,
