@@ -10,6 +10,7 @@ import { AboutComponent } from './home/about/about.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { PassComponent } from './pages/pass/pass.component';
 import { BodyPassComponent } from './pass/body-pass/body-pass.component';
+import { CardPassComponent } from './pass/card-pass/card-pass.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { BodyPassComponent } from './pass/body-pass/body-pass.component';
     AboutComponent,
     ContactComponent,
     PassComponent,
-    BodyPassComponent
+    BodyPassComponent,
+    CardPassComponent
   ],
   imports: [
     BrowserModule,
