@@ -1,0 +1,55 @@
+.container-training{
+    background-color: var(--color-1);
+    padding: 0 108px 0 108px;
+    height: 86vh;
+}
+
+.title-training{
+    color: var(--color-4);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.title-training h1 {
+    font-size: 64px;
+}
+
+.body-training{
+    background-color: var(--color-2);
+    // background-color: rgb(222, 213, 213);
+
+    height: 75%;
+    border-radius: 64px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+}
+
+.body-training-top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 26px 26px 0 0;
+}
+
+.new-training{
+    width: 230px;   
+    height: 8vh;
+    border-radius: 28px;
+    background-color: var(--color-1);
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.new-training:hover{
+    color: var(--color-2);
+}
+
+.cards{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
