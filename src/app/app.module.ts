@@ -13,6 +13,7 @@ import { BodyPassComponent } from './pass/body-pass/body-pass.component';
 import { CardPassComponent } from './pass/card-pass/card-pass.component';
 import { TrainingComponent } from './pages/training/training.component';
 import { BodyTrainingComponent } from './training/body-training/body-training.component';
+import { CardTrainingComponent } from './training/card-training/card-training.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { BodyTrainingComponent } from './training/body-training/body-training.co
     BodyPassComponent,
     CardPassComponent,
     TrainingComponent,
-    BodyTrainingComponent
+    BodyTrainingComponent,
+    CardTrainingComponent
   ],
   imports: [
     BrowserModule,

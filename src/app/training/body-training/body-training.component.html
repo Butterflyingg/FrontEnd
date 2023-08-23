@@ -7,8 +7,10 @@
         <div class="body-training-top">
             <button class="new-training">Marcar novo treinamento</button>
         </div>
-        <div class="cards" *ngFor="let i of InfoTraining">
-            card
+        <div class="container-cards">
+            <div class="cards" *ngFor="let i of InfoTraining">
+                    <app-card-training [itens]="i"></app-card-training>
+            </div>
         </div>
     </div>
 </div>
