@@ -2,6 +2,11 @@
     width: 320px;
     height: 320px;
     background-color: white;
+    transition: 1s;
+}
+
+.card-training .info-training{
+    display: none;
 }
 
 .card-training-img{
@@ -38,8 +43,23 @@
     height: 24px;
 }
 
+.card-training .btn-training button:hover{
+    width: 88px;
+    height: 32px;
+}
+
 .card-training:hover{
     width: 400px;
     height: 350px;
+    .card-training-img{
+        opacity: 0;
+        display: none;
+    }
+    .info-training{
+        display: flex;
+        height: 60%;
+        width: 100%;
+        padding: 16px 0 0 24px;
+    }
 
 }
