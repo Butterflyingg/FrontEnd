@@ -22,9 +22,13 @@
     width: 496px;
     height: 496px;
 }
-
+.container-home .home .body-intro .right-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
 .container-home .home .body-intro .right-intro .text-intro{
-    font-size: 48px;
+    font-size: 32px;
     padding-bottom: 23px;
 }
 .container-home .home .body-intro .right-intro .button-intro{

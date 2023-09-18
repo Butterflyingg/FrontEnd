@@ -1,11 +1,14 @@
 
 .header{
+    // position: sticky;
+    // top: 0;
     background-color: var(--color-1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 14vh;
     padding: 19px 108px 19px 108px;
+
 }
 
 .header .links{
